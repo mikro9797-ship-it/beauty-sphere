@@ -130,7 +130,7 @@ export function ProClubSection() {
             className="h-12 sm:h-14 w-full sm:w-auto bg-gradient-to-r from-[#E94D8A] to-[#FF6B9D] px-8 sm:px-12 text-sm sm:text-base font-medium text-white shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
             asChild
           >
-            <Link to="/bs/club">Стать партнёром</Link>
+            <Link to="/club">Стать партнёром</Link>
           </Button>
         </motion.div>
       </div>

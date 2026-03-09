@@ -28,10 +28,10 @@ export function Header() {
 
   // Основная навигация
   const navItems = [
-    { path: '/bs/catalog', label: 'Каталог' },
-    { path: '/bs/seminars', label: 'Семинары' },
-    { path: '/bs/club', label: 'Абонемент' },
-    { path: '/bs/about', label: 'О нас' },
+    { path: '/catalog', label: 'Каталог' },
+    { path: '/seminars', label: 'Семинары' },
+    { path: '/club', label: 'Абонемент' },
+    { path: '/about', label: 'О нас' },
   ];
 
   return (
@@ -47,7 +47,7 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         <div className="flex h-16 sm:h-20 items-center justify-between">
           {/* Логотип */}
-          <Link to="/bs" className="flex items-center gap-2 sm:gap-3">
+          <Link to="/" className="flex items-center gap-2 sm:gap-3">
             <div className="flex h-8 w-8 sm:h-10 sm:w-10 items-center justify-center rounded-full bg-gradient-to-br from-[#E94D8A] to-[#FF6B9D]">
               <span className="text-base sm:text-lg font-bold text-white">BS</span>
             </div>
@@ -91,7 +91,7 @@ export function Header() {
             </Button>
 
             <Button variant="ghost" size="icon" className="hidden lg:flex" asChild>
-              <Link to="/bs/profile">
+              <Link to="/club">
                 <User className="h-5 w-5" />
               </Link>
             </Button>
@@ -148,9 +148,9 @@ export function Header() {
                   Корзина {totalItems > 0 && `(${totalItems})`}
                 </Button>
                 <Button variant="outline" className="flex-1" asChild>
-                  <Link to="/bs/profile" onClick={() => setIsMobileMenuOpen(false)}>
+                  <Link to="/club" onClick={() => setIsMobileMenuOpen(false)}>
                     <User className="mr-2 h-4 w-4" />
-                    Профиль
+                    Кабинет
                   </Link>
                 </Button>
               </div>

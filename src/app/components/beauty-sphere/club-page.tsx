@@ -104,23 +104,23 @@ export function ClubPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white pt-32 pb-16">
+    <div className="min-h-screen bg-white pt-24 sm:pt-28 lg:pt-32 pb-16">
       {/* Hero секция */}
-      <section ref={heroRef} className="container mx-auto mb-24 px-6 lg:px-12">
+      <section ref={heroRef} className="container mx-auto mb-12 sm:mb-16 lg:mb-24 px-4 sm:px-6 lg:px-12">
         <motion.div
           className="text-center"
           initial={{ opacity: 0, y: 30 }}
           animate={heroInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <h1 className="mb-6 text-5xl font-bold text-[#111111] lg:text-6xl">
+          <h1 className="mb-4 sm:mb-6 text-3xl sm:text-4xl md:text-5xl font-bold text-[#111111] lg:text-6xl">
             Профессиональный абонемент
             <br />
             <span className="bg-gradient-to-r from-[#E94D8A] to-[#FF6B9D] bg-clip-text text-transparent">
               BEAUTY SPHERE
             </span>
           </h1>
-          <p className="mx-auto max-w-3xl text-xl leading-relaxed text-[#666666]">
+          <p className="mx-auto max-w-3xl text-base sm:text-lg lg:text-xl leading-relaxed text-[#666666] px-4">
             Присоединяйтесь к сообществу профессионалов и получите доступ к
             эксклюзивным условиям, обучению и поддержке.
           </p>
@@ -128,18 +128,18 @@ export function ClubPage() {
       </section>
 
       {/* Преимущества */}
-      <section ref={benefitsRef} className="bg-[#F9F9F9] py-24">
-        <div className="container mx-auto px-6 lg:px-12">
+      <section ref={benefitsRef} className="bg-[#F9F9F9] py-12 sm:py-16 lg:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-12">
           <motion.div
-            className="mb-16 text-center"
+            className="mb-8 sm:mb-12 lg:mb-16 text-center"
             initial={{ opacity: 0, y: 30 }}
             animate={benefitsInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="mb-4 text-4xl font-bold text-[#111111]">
+            <h2 className="mb-4 text-2xl sm:text-3xl md:text-4xl font-bold text-[#111111]">
               Преимущества членства
             </h2>
-            <p className="text-lg text-[#666666]">
+            <p className="text-base sm:text-lg text-[#666666]">
               Всё необходимое для роста вашей практики
             </p>
           </motion.div>
@@ -172,18 +172,18 @@ export function ClubPage() {
       </section>
 
       {/* Уровни членства */}
-      <section ref={levelsRef} className="py-24">
-        <div className="container mx-auto px-6 lg:px-12">
+      <section ref={levelsRef} className="py-12 sm:py-16 lg:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-12">
           <motion.div
-            className="mb-16 text-center"
+            className="mb-8 sm:mb-12 lg:mb-16 text-center"
             initial={{ opacity: 0, y: 30 }}
             animate={levelsInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="mb-4 text-4xl font-bold text-[#111111]">
+            <h2 className="mb-4 text-2xl sm:text-3xl md:text-4xl font-bold text-[#111111]">
               Выберите уровень членства
             </h2>
-            <p className="text-lg text-[#666666]">
+            <p className="text-base sm:text-lg text-[#666666]">
               Подходящий план для любого профессионала
             </p>
           </motion.div>
@@ -243,19 +243,19 @@ export function ClubPage() {
       </section>
 
       {/* Форма заявки */}
-      <section className="bg-[#F9F9F9] py-24">
-        <div className="container mx-auto px-6 lg:px-12">
+      <section className="bg-[#F9F9F9] py-12 sm:py-16 lg:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-12">
           <div className="mx-auto max-w-2xl">
-            <div className="mb-12 text-center">
-              <h2 className="mb-4 text-4xl font-bold text-[#111111]">
+            <div className="mb-8 sm:mb-12 text-center">
+              <h2 className="mb-4 text-2xl sm:text-3xl md:text-4xl font-bold text-[#111111]">
                 Стать партнёром
               </h2>
-              <p className="text-lg text-[#666666]">
+              <p className="text-base sm:text-lg text-[#666666]">
                 Заполните форму, и мы свяжемся с вами в ближайшее время
               </p>
             </div>
 
-            <form className="space-y-6 rounded-2xl bg-white p-8 shadow-lg">
+            <form className="space-y-6 rounded-2xl bg-white p-4 sm:p-6 lg:p-8 shadow-lg">
               <div className="grid gap-6 md:grid-cols-2">
                 <div>
                   <Label htmlFor="name">Имя и фамилия *</Label>

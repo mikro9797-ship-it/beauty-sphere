@@ -82,7 +82,7 @@ export function ProductsSection() {
                     className="flex-1 bg-white/95 backdrop-blur-sm hover:bg-white text-xs sm:text-sm"
                     asChild
                   >
-                    <Link to={`/bs/product/${product.id}`}>
+                    <Link to={`/product/${product.id}`}>
                       <Eye className="mr-1 sm:mr-2 h-3 w-3 sm:h-4 sm:w-4" />
                       <span className="hidden sm:inline">Просмотр</span>
                       <span className="sm:hidden">Открыть</span>
@@ -131,7 +131,7 @@ export function ProductsSection() {
                     className="h-8 w-8 sm:h-10 sm:w-10 text-[#E94D8A] hover:bg-[#E94D8A]/10"
                     asChild
                   >
-                    <Link to={`/bs/product/${product.id}`}>
+                    <Link to={`/product/${product.id}`}>
                       <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
                     </Link>
                   </Button>
@@ -154,7 +154,7 @@ export function ProductsSection() {
             className="h-12 sm:h-14 w-full sm:w-auto border-2 border-[#E94D8A] px-8 sm:px-12 text-sm sm:text-base text-[#E94D8A] hover:bg-[#E94D8A] hover:text-white"
             asChild
           >
-            <Link to="/bs/catalog">Весь каталог</Link>
+            <Link to="/catalog">Весь каталог</Link>
           </Button>
         </motion.div>
       </div>

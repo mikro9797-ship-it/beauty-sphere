@@ -62,7 +62,7 @@ export function HeroSection() {
               className="group h-12 sm:h-14 w-full sm:w-auto bg-gradient-to-r from-[#E94D8A] to-[#FF6B9D] px-6 sm:px-8 text-sm sm:text-base font-medium text-white shadow-lg transition-all hover:shadow-xl hover:scale-105"
               asChild
             >
-              <Link to="/bs/catalog">
+              <Link to="/catalog">
                 Перейти в каталог
                 <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 transition-transform group-hover:translate-x-1" />
               </Link>
@@ -74,7 +74,7 @@ export function HeroSection() {
               className="h-12 sm:h-14 w-full sm:w-auto border-2 border-[#E94D8A] px-6 sm:px-8 text-sm sm:text-base font-medium text-[#E94D8A] hover:bg-[#E94D8A] hover:text-white"
               asChild
             >
-              <Link to="/bs/seminars">Ближайшие семинары</Link>
+              <Link to="/seminars">Ближайшие семинары</Link>
             </Button>
           </motion.div>
         </motion.div>

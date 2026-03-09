@@ -133,7 +133,7 @@ export function SeminarsSection() {
                       className="bg-gradient-to-r from-[#E94D8A] to-[#FF6B9D] text-white hover:opacity-90 text-xs sm:text-sm"
                       asChild
                     >
-                      <Link to={`/bs/seminar/${seminar.id}`}>
+                      <Link to="/seminars">
                         Записаться
                       </Link>
                     </Button>
@@ -157,7 +157,7 @@ export function SeminarsSection() {
             className="h-12 sm:h-14 w-full sm:w-auto border-2 border-[#E94D8A] px-8 sm:px-12 text-sm sm:text-base text-[#E94D8A] hover:bg-[#E94D8A] hover:text-white"
             asChild
           >
-            <Link to="/bs/seminars">Все семинары</Link>
+            <Link to="/seminars">Все семинары</Link>
           </Button>
         </motion.div>
       </div>

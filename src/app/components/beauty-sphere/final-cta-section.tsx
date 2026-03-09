@@ -99,7 +99,7 @@ export function FinalCTASection() {
                 className="group h-12 sm:h-14 w-full sm:w-auto bg-white px-8 sm:px-12 text-sm sm:text-base font-medium text-[#E94D8A] shadow-xl transition-all hover:scale-105 hover:bg-white/90"
                 asChild
               >
-                <Link to="/bs/catalog">
+                <Link to="/catalog">
                   Перейти в каталог
                   <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 transition-transform group-hover:translate-x-1" />
                 </Link>
@@ -111,7 +111,7 @@ export function FinalCTASection() {
                 className="h-12 sm:h-14 w-full sm:w-auto border-2 border-white bg-transparent px-8 sm:px-12 text-sm sm:text-base font-medium text-white hover:bg-white hover:text-[#E94D8A]"
                 asChild
               >
-                <Link to="/bs/seminars">Семинары и обучение</Link>
+                <Link to="/seminars">Семинары и обучение</Link>
               </Button>
             </motion.div>
           </div>

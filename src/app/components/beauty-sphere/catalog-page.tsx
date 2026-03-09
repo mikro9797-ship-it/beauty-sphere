@@ -167,7 +167,7 @@ export function CatalogPage() {
         {/* Заголовок и хлебные крошки */}
         <div className="mb-8 sm:mb-12">
           <p className="mb-4 text-sm text-[#999999]">
-            <Link to="/bs" className="hover:text-[#E94D8A]">Главная</Link> / Каталог
+            <Link to="/" className="hover:text-[#E94D8A]">Главная</Link> / Каталог
           </p>
           <h1 className="mb-4 text-3xl sm:text-4xl lg:text-5xl font-bold text-[#111111]">
             Каталог продуктов
@@ -262,7 +262,7 @@ export function CatalogPage() {
                           className="flex-1 bg-white/95 backdrop-blur-sm hover:bg-white text-xs sm:text-sm"
                           asChild
                         >
-                          <Link to={`/bs/product/${product.id}`}>
+                          <Link to={`/product/${product.id}`}>
                             <Eye className="mr-1 sm:mr-2 h-3 w-3 sm:h-4 sm:w-4" />
                             <span className="hidden sm:inline">Просмотр</span>
                             <span className="sm:hidden">Открыть</span>

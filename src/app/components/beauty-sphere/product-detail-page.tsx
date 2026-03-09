@@ -67,7 +67,7 @@ export function ProductDetailPage() {
         {/* Хлебные крошки */}
         <div className="mb-6 sm:mb-8">
           <Link
-            to="/bs/catalog"
+            to="/catalog"
             className="inline-flex items-center gap-2 text-sm text-[#999999] hover:text-[#E94D8A]"
           >
             <ChevronLeft className="h-4 w-4" />
@@ -261,7 +261,7 @@ export function ProductDetailPage() {
               {relatedProducts.map((relatedProduct) => (
                 <Link
                   key={relatedProduct.id}
-                  to={`/bs/product/${relatedProduct.id}`}
+                  to={`/product/${relatedProduct.id}`}
                   className="group overflow-hidden rounded-xl sm:rounded-2xl bg-[#F9F9F9] transition-all hover:shadow-lg"
                 >
                   <div className="aspect-square overflow-hidden bg-white">

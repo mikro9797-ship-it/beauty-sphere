@@ -68,27 +68,27 @@ export function Footer() {
             </h3>
             <ul className="space-y-3 text-sm text-[#666666]">
               <li>
-                <Link to="/bs/catalog" className="hover:text-[#E94D8A] transition-colors">
+                <Link to="/catalog" className="hover:text-[#E94D8A] transition-colors">
                   Каталог
                 </Link>
               </li>
               <li>
-                <Link to="/bs/seminars" className="hover:text-[#E94D8A] transition-colors">
+                <Link to="/seminars" className="hover:text-[#E94D8A] transition-colors">
                   Семинары
                 </Link>
               </li>
               <li>
-                <Link to="/bs/club" className="hover:text-[#E94D8A] transition-colors">
+                <Link to="/club" className="hover:text-[#E94D8A] transition-colors">
                   Профессиональный абонемент
                 </Link>
               </li>
               <li>
-                <Link to="/bs/about" className="hover:text-[#E94D8A] transition-colors">
+                <Link to="/about" className="hover:text-[#E94D8A] transition-colors">
                   О нас
                 </Link>
               </li>
               <li>
-                <Link to="/bs/brands" className="hover:text-[#E94D8A] transition-colors">
+                <Link to="/brands" className="hover:text-[#E94D8A] transition-colors">
                   Бренды
                 </Link>
               </li>
@@ -102,29 +102,21 @@ export function Footer() {
             </h3>
             <ul className="space-y-3 text-sm text-[#666666]">
               <li>
-                <Link to="/bs/delivery" className="hover:text-[#E94D8A] transition-colors">
-                  Доставка и оплата
-                </Link>
+                <span className="cursor-default">Доставка и оплата</span>
               </li>
               <li>
-                <Link to="/bs/warranty" className="hover:text-[#E94D8A] transition-colors">
-                  Гарантия качества
-                </Link>
+                <span className="cursor-default">Гарантия качества</span>
               </li>
               <li>
-                <Link to="/bs/contacts" className="hover:text-[#E94D8A] transition-colors">
+                <Link to="/about" className="hover:text-[#E94D8A] transition-colors">
                   Контакты
                 </Link>
               </li>
               <li>
-                <Link to="/bs/privacy" className="hover:text-[#E94D8A] transition-colors">
-                  Политика конфиденциальности
-                </Link>
+                <span className="cursor-default">Политика конфиденциальности</span>
               </li>
               <li>
-                <Link to="/bs/terms" className="hover:text-[#E94D8A] transition-colors">
-                  Условия использования
-                </Link>
+                <span className="cursor-default">Условия использования</span>
               </li>
             </ul>
           </div>
